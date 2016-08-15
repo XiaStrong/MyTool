@@ -1,0 +1,938 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15879AAC1D5DB6F1005D4F99 /* XQHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 15879AA61D5DB6F1005D4F99 /* XQHud.m */; };
+		15879AAD1D5DB6F1005D4F99 /* loading_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 15879AA81D5DB6F1005D4F99 /* loading_1.png */; };
+		15879AAE1D5DB6F1005D4F99 /* loading_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 15879AA91D5DB6F1005D4F99 /* loading_2.png */; };
+		15879AAF1D5DB6F1005D4F99 /* loading_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 15879AAA1D5DB6F1005D4F99 /* loading_3.png */; };
+		15879AB01D5DB6F1005D4F99 /* loading_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 15879AAB1D5DB6F1005D4F99 /* loading_4.png */; };
+		15879AB41D5DB82C005D4F99 /* HUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15879AB21D5DB82C005D4F99 /* HUDViewController.m */; };
+		15879AB51D5DB82C005D4F99 /* HUDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15879AB31D5DB82C005D4F99 /* HUDViewController.xib */; };
+		15879ABA1D5DBE9E005D4F99 /* TimePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15879AB81D5DBE9E005D4F99 /* TimePickerViewController.m */; };
+		15879ABB1D5DBE9E005D4F99 /* TimePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15879AB91D5DBE9E005D4F99 /* TimePickerViewController.xib */; };
+		15879ABE1D5DBEB8005D4F99 /* XQTimePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 15879ABD1D5DBEB8005D4F99 /* XQTimePicker.m */; };
+		15879ACB1D5DC7F8005D4F99 /* NSDate+XQDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15879AC21D5DC7F8005D4F99 /* NSDate+XQDate.m */; };
+		15879ACC1D5DC7F8005D4F99 /* NSString+MoreMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 15879AC41D5DC7F8005D4F99 /* NSString+MoreMethod.m */; };
+		15879ACD1D5DC7F8005D4F99 /* UILabel+XQAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 15879AC61D5DC7F8005D4F99 /* UILabel+XQAttribute.m */; };
+		15879ACE1D5DC7F8005D4F99 /* UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 15879AC81D5DC7F8005D4F99 /* UUID.m */; };
+		15879ACF1D5DC7F8005D4F99 /* XQGetData.m in Sources */ = {isa = PBXBuildFile; fileRef = 15879ACA1D5DC7F8005D4F99 /* XQGetData.m */; };
+		15879AD31D5DC854005D4F99 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 15879AD21D5DC854005D4F99 /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		15879ADF1D5DCB08005D4F99 /* ImageBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 15879AD61D5DCB08005D4F99 /* ImageBtn.m */; };
+		15879AE01D5DCB08005D4F99 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 15879AD81D5DCB08005D4F99 /* UIView+Frame.m */; };
+		15879AE11D5DCB08005D4F99 /* XQRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15879ADA1D5DCB08005D4F99 /* XQRecordView.m */; };
+		15879AE21D5DCB08005D4F99 /* 签到icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15879ADB1D5DCB08005D4F99 /* 签到icon@2x.png */; };
+		15879AE31D5DCB09005D4F99 /* 签到icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15879ADC1D5DCB08005D4F99 /* 签到icon@3x.png */; };
+		15879AE41D5DCB09005D4F99 /* 签退icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15879ADD1D5DCB08005D4F99 /* 签退icon@2x.png */; };
+		15879AE51D5DCB09005D4F99 /* 签退icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15879ADE1D5DCB08005D4F99 /* 签退icon@3x.png */; };
+		15879AE91D5DCF2A005D4F99 /* BtnMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15879AE71D5DCF2A005D4F99 /* BtnMenuViewController.m */; };
+		15879AEA1D5DCF2A005D4F99 /* BtnMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15879AE81D5DCF2A005D4F99 /* BtnMenuViewController.xib */; };
+		15879AED1D5DCF40005D4F99 /* XQMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15879AEC1D5DCF40005D4F99 /* XQMenuView.m */; };
+		15AB65F21D5AC2ED006561BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AB65F11D5AC2ED006561BF /* main.m */; };
+		15AB65F51D5AC2ED006561BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AB65F41D5AC2ED006561BF /* AppDelegate.m */; };
+		15AB65F81D5AC2ED006561BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AB65F71D5AC2ED006561BF /* ViewController.m */; };
+		15AB65FB1D5AC2ED006561BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15AB65F91D5AC2ED006561BF /* Main.storyboard */; };
+		15AB65FD1D5AC2ED006561BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15AB65FC1D5AC2ED006561BF /* Assets.xcassets */; };
+		15AB66001D5AC2ED006561BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15AB65FE1D5AC2ED006561BF /* LaunchScreen.storyboard */; };
+		15AB660B1D5AC2ED006561BF /* MyToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AB660A1D5AC2ED006561BF /* MyToolTests.m */; };
+		15AB66161D5AC2ED006561BF /* MyToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AB66151D5AC2ED006561BF /* MyToolUITests.m */; };
+		15AB66261D5AC392006561BF /* MapLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AB66251D5AC392006561BF /* MapLocation.m */; };
+		15AB66291D5AC664006561BF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AB66281D5AC664006561BF /* MainViewController.m */; };
+		15AB662D1D5AC6CA006561BF /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AB662B1D5AC6CA006561BF /* MapViewController.m */; };
+		15AB662E1D5AC6CA006561BF /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15AB662C1D5AC6CA006561BF /* MapViewController.xib */; };
+		15AB66301D5AC75F006561BF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15AB662F1D5AC75F006561BF /* MapKit.framework */; };
+		15AB66321D5AC76A006561BF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15AB66311D5AC76A006561BF /* CoreLocation.framework */; };
+		15AB663C1D5ACCA6006561BF /* GDBackPlaceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AB66371D5ACCA6006561BF /* GDBackPlaceModel.m */; };
+		15AB663D1D5ACCA6006561BF /* GDLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AB66391D5ACCA6006561BF /* GDLocation.m */; };
+		15AB663E1D5ACCA6006561BF /* XQGDWayWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AB663B1D5ACCA6006561BF /* XQGDWayWebView.m */; };
+		15AB66431D5ACF1B006561BF /* GDMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AB66411D5ACF1B006561BF /* GDMapViewController.m */; };
+		15AB66441D5ACF1B006561BF /* GDMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15AB66421D5ACF1B006561BF /* GDMapViewController.xib */; };
+		15AB66481D5AD129006561BF /* XQMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AB66471D5AD129006561BF /* XQMapView.m */; };
+		15AB664B1D5AD8AA006561BF /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AB664A1D5AD8AA006561BF /* ColorViewController.m */; };
+		15AB664F1D5AD8F3006561BF /* UIColor+XQColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AB664E1D5AD8F3006561BF /* UIColor+XQColor.m */; };
+		15AB66541D5B0987006561BF /* VFLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AB66521D5B0987006561BF /* VFLViewController.m */; };
+		15AB66551D5B0987006561BF /* VFLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15AB66531D5B0987006561BF /* VFLViewController.xib */; };
+		B8341488218062C13F0CC604 /* libPods-MyTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D2042761585434802BCA8F /* libPods-MyTool.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15AB66071D5AC2ED006561BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15AB65E51D5AC2ED006561BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15AB65EC1D5AC2ED006561BF;
+			remoteInfo = MyTool;
+		};
+		15AB66121D5AC2ED006561BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15AB65E51D5AC2ED006561BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15AB65EC1D5AC2ED006561BF;
+			remoteInfo = MyTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15879AA51D5DB6F1005D4F99 /* XQHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQHud.h; sourceTree = "<group>"; };
+		15879AA61D5DB6F1005D4F99 /* XQHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQHud.m; sourceTree = "<group>"; };
+		15879AA81D5DB6F1005D4F99 /* loading_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading_1.png; sourceTree = "<group>"; };
+		15879AA91D5DB6F1005D4F99 /* loading_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading_2.png; sourceTree = "<group>"; };
+		15879AAA1D5DB6F1005D4F99 /* loading_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading_3.png; sourceTree = "<group>"; };
+		15879AAB1D5DB6F1005D4F99 /* loading_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading_4.png; sourceTree = "<group>"; };
+		15879AB11D5DB82C005D4F99 /* HUDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDViewController.h; sourceTree = "<group>"; };
+		15879AB21D5DB82C005D4F99 /* HUDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDViewController.m; sourceTree = "<group>"; };
+		15879AB31D5DB82C005D4F99 /* HUDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HUDViewController.xib; sourceTree = "<group>"; };
+		15879AB71D5DBE9E005D4F99 /* TimePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimePickerViewController.h; sourceTree = "<group>"; };
+		15879AB81D5DBE9E005D4F99 /* TimePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimePickerViewController.m; sourceTree = "<group>"; };
+		15879AB91D5DBE9E005D4F99 /* TimePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimePickerViewController.xib; sourceTree = "<group>"; };
+		15879ABC1D5DBEB8005D4F99 /* XQTimePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQTimePicker.h; sourceTree = "<group>"; };
+		15879ABD1D5DBEB8005D4F99 /* XQTimePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQTimePicker.m; sourceTree = "<group>"; };
+		15879AC11D5DC7F8005D4F99 /* NSDate+XQDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+XQDate.h"; sourceTree = "<group>"; };
+		15879AC21D5DC7F8005D4F99 /* NSDate+XQDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+XQDate.m"; sourceTree = "<group>"; };
+		15879AC31D5DC7F8005D4F99 /* NSString+MoreMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MoreMethod.h"; sourceTree = "<group>"; };
+		15879AC41D5DC7F8005D4F99 /* NSString+MoreMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MoreMethod.m"; sourceTree = "<group>"; };
+		15879AC51D5DC7F8005D4F99 /* UILabel+XQAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+XQAttribute.h"; sourceTree = "<group>"; };
+		15879AC61D5DC7F8005D4F99 /* UILabel+XQAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+XQAttribute.m"; sourceTree = "<group>"; };
+		15879AC71D5DC7F8005D4F99 /* UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUID.h; sourceTree = "<group>"; };
+		15879AC81D5DC7F8005D4F99 /* UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUID.m; sourceTree = "<group>"; };
+		15879AC91D5DC7F8005D4F99 /* XQGetData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQGetData.h; sourceTree = "<group>"; };
+		15879ACA1D5DC7F8005D4F99 /* XQGetData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQGetData.m; sourceTree = "<group>"; };
+		15879AD11D5DC854005D4F99 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		15879AD21D5DC854005D4F99 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		15879AD51D5DCB08005D4F99 /* ImageBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageBtn.h; sourceTree = "<group>"; };
+		15879AD61D5DCB08005D4F99 /* ImageBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageBtn.m; sourceTree = "<group>"; };
+		15879AD71D5DCB08005D4F99 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		15879AD81D5DCB08005D4F99 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		15879AD91D5DCB08005D4F99 /* XQRecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQRecordView.h; sourceTree = "<group>"; };
+		15879ADA1D5DCB08005D4F99 /* XQRecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQRecordView.m; sourceTree = "<group>"; };
+		15879ADB1D5DCB08005D4F99 /* 签到icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "签到icon@2x.png"; sourceTree = "<group>"; };
+		15879ADC1D5DCB08005D4F99 /* 签到icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "签到icon@3x.png"; sourceTree = "<group>"; };
+		15879ADD1D5DCB08005D4F99 /* 签退icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "签退icon@2x.png"; sourceTree = "<group>"; };
+		15879ADE1D5DCB08005D4F99 /* 签退icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "签退icon@3x.png"; sourceTree = "<group>"; };
+		15879AE61D5DCF2A005D4F99 /* BtnMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BtnMenuViewController.h; sourceTree = "<group>"; };
+		15879AE71D5DCF2A005D4F99 /* BtnMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BtnMenuViewController.m; sourceTree = "<group>"; };
+		15879AE81D5DCF2A005D4F99 /* BtnMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BtnMenuViewController.xib; sourceTree = "<group>"; };
+		15879AEB1D5DCF40005D4F99 /* XQMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQMenuView.h; sourceTree = "<group>"; };
+		15879AEC1D5DCF40005D4F99 /* XQMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQMenuView.m; sourceTree = "<group>"; };
+		15AB65ED1D5AC2ED006561BF /* MyTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15AB65F11D5AC2ED006561BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15AB65F31D5AC2ED006561BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		15AB65F41D5AC2ED006561BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		15AB65F61D5AC2ED006561BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		15AB65F71D5AC2ED006561BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		15AB65FA1D5AC2ED006561BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15AB65FC1D5AC2ED006561BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15AB65FF1D5AC2ED006561BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15AB66011D5AC2ED006561BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15AB66061D5AC2ED006561BF /* MyToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15AB660A1D5AC2ED006561BF /* MyToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyToolTests.m; sourceTree = "<group>"; };
+		15AB660C1D5AC2ED006561BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15AB66111D5AC2ED006561BF /* MyToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15AB66151D5AC2ED006561BF /* MyToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyToolUITests.m; sourceTree = "<group>"; };
+		15AB66171D5AC2ED006561BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15AB66241D5AC392006561BF /* MapLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapLocation.h; sourceTree = "<group>"; };
+		15AB66251D5AC392006561BF /* MapLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapLocation.m; sourceTree = "<group>"; };
+		15AB66271D5AC664006561BF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		15AB66281D5AC664006561BF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		15AB662A1D5AC6CA006561BF /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		15AB662B1D5AC6CA006561BF /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		15AB662C1D5AC6CA006561BF /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		15AB662F1D5AC75F006561BF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		15AB66311D5AC76A006561BF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		15AB66361D5ACCA6006561BF /* GDBackPlaceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDBackPlaceModel.h; sourceTree = "<group>"; };
+		15AB66371D5ACCA6006561BF /* GDBackPlaceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDBackPlaceModel.m; sourceTree = "<group>"; };
+		15AB66381D5ACCA6006561BF /* GDLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDLocation.h; sourceTree = "<group>"; };
+		15AB66391D5ACCA6006561BF /* GDLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDLocation.m; sourceTree = "<group>"; };
+		15AB663A1D5ACCA6006561BF /* XQGDWayWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQGDWayWebView.h; sourceTree = "<group>"; };
+		15AB663B1D5ACCA6006561BF /* XQGDWayWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQGDWayWebView.m; sourceTree = "<group>"; };
+		15AB663F1D5ACCD4006561BF /* Header.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.pch; sourceTree = "<group>"; };
+		15AB66401D5ACF1B006561BF /* GDMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDMapViewController.h; sourceTree = "<group>"; };
+		15AB66411D5ACF1B006561BF /* GDMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDMapViewController.m; sourceTree = "<group>"; };
+		15AB66421D5ACF1B006561BF /* GDMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDMapViewController.xib; sourceTree = "<group>"; };
+		15AB66461D5AD129006561BF /* XQMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQMapView.h; sourceTree = "<group>"; };
+		15AB66471D5AD129006561BF /* XQMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQMapView.m; sourceTree = "<group>"; };
+		15AB66491D5AD8AA006561BF /* ColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorViewController.h; sourceTree = "<group>"; };
+		15AB664A1D5AD8AA006561BF /* ColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorViewController.m; sourceTree = "<group>"; };
+		15AB664D1D5AD8F3006561BF /* UIColor+XQColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+XQColor.h"; sourceTree = "<group>"; };
+		15AB664E1D5AD8F3006561BF /* UIColor+XQColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XQColor.m"; sourceTree = "<group>"; };
+		15AB66511D5B0987006561BF /* VFLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFLViewController.h; sourceTree = "<group>"; };
+		15AB66521D5B0987006561BF /* VFLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFLViewController.m; sourceTree = "<group>"; };
+		15AB66531D5B0987006561BF /* VFLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VFLViewController.xib; sourceTree = "<group>"; };
+		201F87ADF2D2B99966245BFB /* Pods-MyTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyTool/Pods-MyTool.release.xcconfig"; sourceTree = "<group>"; };
+		3D882994EEA1935BF123779E /* Pods-MyTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyTool/Pods-MyTool.debug.xcconfig"; sourceTree = "<group>"; };
+		E1D2042761585434802BCA8F /* libPods-MyTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15AB65EA1D5AC2ED006561BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15AB66321D5AC76A006561BF /* CoreLocation.framework in Frameworks */,
+				15AB66301D5AC75F006561BF /* MapKit.framework in Frameworks */,
+				B8341488218062C13F0CC604 /* libPods-MyTool.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15AB66031D5AC2ED006561BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15AB660E1D5AC2ED006561BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15879AA41D5DB6F1005D4F99 /* XQHud */ = {
+			isa = PBXGroup;
+			children = (
+				15879AA51D5DB6F1005D4F99 /* XQHud.h */,
+				15879AA61D5DB6F1005D4F99 /* XQHud.m */,
+				15879AA71D5DB6F1005D4F99 /* 动图 */,
+			);
+			path = XQHud;
+			sourceTree = "<group>";
+		};
+		15879AA71D5DB6F1005D4F99 /* 动图 */ = {
+			isa = PBXGroup;
+			children = (
+				15879AA81D5DB6F1005D4F99 /* loading_1.png */,
+				15879AA91D5DB6F1005D4F99 /* loading_2.png */,
+				15879AAA1D5DB6F1005D4F99 /* loading_3.png */,
+				15879AAB1D5DB6F1005D4F99 /* loading_4.png */,
+			);
+			path = "动图";
+			sourceTree = "<group>";
+		};
+		15879AB61D5DBD85005D4F99 /* 自定义的HUD */ = {
+			isa = PBXGroup;
+			children = (
+				15879AB11D5DB82C005D4F99 /* HUDViewController.h */,
+				15879AB21D5DB82C005D4F99 /* HUDViewController.m */,
+				15879AB31D5DB82C005D4F99 /* HUDViewController.xib */,
+				15879AA41D5DB6F1005D4F99 /* XQHud */,
+			);
+			name = "自定义的HUD";
+			sourceTree = "<group>";
+		};
+		15879ABF1D5DC547005D4F99 /* TimePicker */ = {
+			isa = PBXGroup;
+			children = (
+				15879AB71D5DBE9E005D4F99 /* TimePickerViewController.h */,
+				15879AB81D5DBE9E005D4F99 /* TimePickerViewController.m */,
+				15879AB91D5DBE9E005D4F99 /* TimePickerViewController.xib */,
+				15879ABC1D5DBEB8005D4F99 /* XQTimePicker.h */,
+				15879ABD1D5DBEB8005D4F99 /* XQTimePicker.m */,
+			);
+			name = TimePicker;
+			sourceTree = "<group>";
+		};
+		15879AC01D5DC7AF005D4F99 /* 工具 */ = {
+			isa = PBXGroup;
+			children = (
+				15879AD41D5DCB08005D4F99 /* XQRecordView */,
+				15879AD01D5DC854005D4F99 /* keyChain */,
+				15879AC11D5DC7F8005D4F99 /* NSDate+XQDate.h */,
+				15879AC21D5DC7F8005D4F99 /* NSDate+XQDate.m */,
+				15879AC31D5DC7F8005D4F99 /* NSString+MoreMethod.h */,
+				15879AC41D5DC7F8005D4F99 /* NSString+MoreMethod.m */,
+				15879AC51D5DC7F8005D4F99 /* UILabel+XQAttribute.h */,
+				15879AC61D5DC7F8005D4F99 /* UILabel+XQAttribute.m */,
+				15879AC71D5DC7F8005D4F99 /* UUID.h */,
+				15879AC81D5DC7F8005D4F99 /* UUID.m */,
+				15879AC91D5DC7F8005D4F99 /* XQGetData.h */,
+				15879ACA1D5DC7F8005D4F99 /* XQGetData.m */,
+			);
+			path = "工具";
+			sourceTree = "<group>";
+		};
+		15879AD01D5DC854005D4F99 /* keyChain */ = {
+			isa = PBXGroup;
+			children = (
+				15879AD11D5DC854005D4F99 /* KeychainItemWrapper.h */,
+				15879AD21D5DC854005D4F99 /* KeychainItemWrapper.m */,
+			);
+			path = keyChain;
+			sourceTree = "<group>";
+		};
+		15879AD41D5DCB08005D4F99 /* XQRecordView */ = {
+			isa = PBXGroup;
+			children = (
+				15879AD51D5DCB08005D4F99 /* ImageBtn.h */,
+				15879AD61D5DCB08005D4F99 /* ImageBtn.m */,
+				15879AD71D5DCB08005D4F99 /* UIView+Frame.h */,
+				15879AD81D5DCB08005D4F99 /* UIView+Frame.m */,
+				15879AD91D5DCB08005D4F99 /* XQRecordView.h */,
+				15879ADA1D5DCB08005D4F99 /* XQRecordView.m */,
+				15879ADB1D5DCB08005D4F99 /* 签到icon@2x.png */,
+				15879ADC1D5DCB08005D4F99 /* 签到icon@3x.png */,
+				15879ADD1D5DCB08005D4F99 /* 签退icon@2x.png */,
+				15879ADE1D5DCB08005D4F99 /* 签退icon@3x.png */,
+			);
+			name = XQRecordView;
+			path = ../XQRecordView;
+			sourceTree = "<group>";
+		};
+		15879AEE1D5DD0DF005D4F99 /* BtnMenu互换位置 */ = {
+			isa = PBXGroup;
+			children = (
+				15879AE61D5DCF2A005D4F99 /* BtnMenuViewController.h */,
+				15879AE71D5DCF2A005D4F99 /* BtnMenuViewController.m */,
+				15879AE81D5DCF2A005D4F99 /* BtnMenuViewController.xib */,
+				15879AEB1D5DCF40005D4F99 /* XQMenuView.h */,
+				15879AEC1D5DCF40005D4F99 /* XQMenuView.m */,
+			);
+			name = "BtnMenu互换位置";
+			sourceTree = "<group>";
+		};
+		15AB65E41D5AC2ED006561BF = {
+			isa = PBXGroup;
+			children = (
+				15AB66311D5AC76A006561BF /* CoreLocation.framework */,
+				15AB662F1D5AC75F006561BF /* MapKit.framework */,
+				15AB65EF1D5AC2ED006561BF /* MyTool */,
+				15AB66091D5AC2ED006561BF /* MyToolTests */,
+				15AB66141D5AC2ED006561BF /* MyToolUITests */,
+				15AB65EE1D5AC2ED006561BF /* Products */,
+				78E8DF5D96996121DBEF462D /* Pods */,
+				CED0A5DA04DA6FFF674217B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		15AB65EE1D5AC2ED006561BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15AB65ED1D5AC2ED006561BF /* MyTool.app */,
+				15AB66061D5AC2ED006561BF /* MyToolTests.xctest */,
+				15AB66111D5AC2ED006561BF /* MyToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15AB65EF1D5AC2ED006561BF /* MyTool */ = {
+			isa = PBXGroup;
+			children = (
+				15AB65F31D5AC2ED006561BF /* AppDelegate.h */,
+				15AB65F41D5AC2ED006561BF /* AppDelegate.m */,
+				15AB65F61D5AC2ED006561BF /* ViewController.h */,
+				15AB65F71D5AC2ED006561BF /* ViewController.m */,
+				15879AEE1D5DD0DF005D4F99 /* BtnMenu互换位置 */,
+				15879AC01D5DC7AF005D4F99 /* 工具 */,
+				15879ABF1D5DC547005D4F99 /* TimePicker */,
+				15879AB61D5DBD85005D4F99 /* 自定义的HUD */,
+				15AB66501D5ADAD0006561BF /* VFL简单使用 */,
+				15AB664C1D5AD8BA006561BF /* 两种方式设置颜色 */,
+				15AB66451D5ACF3C006561BF /* 高德简单使用 */,
+				15AB66341D5ACACC006561BF /* GPS坐标 */,
+				15AB65F91D5AC2ED006561BF /* Main.storyboard */,
+				15AB65FC1D5AC2ED006561BF /* Assets.xcassets */,
+				15AB66271D5AC664006561BF /* MainViewController.h */,
+				15AB66281D5AC664006561BF /* MainViewController.m */,
+				15AB65FE1D5AC2ED006561BF /* LaunchScreen.storyboard */,
+				15AB66011D5AC2ED006561BF /* Info.plist */,
+				15AB663F1D5ACCD4006561BF /* Header.pch */,
+				15AB65F01D5AC2ED006561BF /* Supporting Files */,
+			);
+			path = MyTool;
+			sourceTree = "<group>";
+		};
+		15AB65F01D5AC2ED006561BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15AB65F11D5AC2ED006561BF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15AB66091D5AC2ED006561BF /* MyToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				15AB660A1D5AC2ED006561BF /* MyToolTests.m */,
+				15AB660C1D5AC2ED006561BF /* Info.plist */,
+			);
+			path = MyToolTests;
+			sourceTree = "<group>";
+		};
+		15AB66141D5AC2ED006561BF /* MyToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15AB66151D5AC2ED006561BF /* MyToolUITests.m */,
+				15AB66171D5AC2ED006561BF /* Info.plist */,
+			);
+			path = MyToolUITests;
+			sourceTree = "<group>";
+		};
+		15AB66231D5AC392006561BF /* MapLocation */ = {
+			isa = PBXGroup;
+			children = (
+				15AB66241D5AC392006561BF /* MapLocation.h */,
+				15AB66251D5AC392006561BF /* MapLocation.m */,
+			);
+			path = MapLocation;
+			sourceTree = "<group>";
+		};
+		15AB66341D5ACACC006561BF /* GPS坐标 */ = {
+			isa = PBXGroup;
+			children = (
+				15AB66231D5AC392006561BF /* MapLocation */,
+				15AB662A1D5AC6CA006561BF /* MapViewController.h */,
+				15AB662B1D5AC6CA006561BF /* MapViewController.m */,
+				15AB662C1D5AC6CA006561BF /* MapViewController.xib */,
+			);
+			name = "GPS坐标";
+			sourceTree = "<group>";
+		};
+		15AB66351D5ACCA6006561BF /* AMapLocation */ = {
+			isa = PBXGroup;
+			children = (
+				15AB66461D5AD129006561BF /* XQMapView.h */,
+				15AB66471D5AD129006561BF /* XQMapView.m */,
+				15AB66361D5ACCA6006561BF /* GDBackPlaceModel.h */,
+				15AB66371D5ACCA6006561BF /* GDBackPlaceModel.m */,
+				15AB66381D5ACCA6006561BF /* GDLocation.h */,
+				15AB66391D5ACCA6006561BF /* GDLocation.m */,
+				15AB663A1D5ACCA6006561BF /* XQGDWayWebView.h */,
+				15AB663B1D5ACCA6006561BF /* XQGDWayWebView.m */,
+			);
+			path = AMapLocation;
+			sourceTree = "<group>";
+		};
+		15AB66451D5ACF3C006561BF /* 高德简单使用 */ = {
+			isa = PBXGroup;
+			children = (
+				15AB66401D5ACF1B006561BF /* GDMapViewController.h */,
+				15AB66411D5ACF1B006561BF /* GDMapViewController.m */,
+				15AB66421D5ACF1B006561BF /* GDMapViewController.xib */,
+				15AB66351D5ACCA6006561BF /* AMapLocation */,
+			);
+			name = "高德简单使用";
+			sourceTree = "<group>";
+		};
+		15AB664C1D5AD8BA006561BF /* 两种方式设置颜色 */ = {
+			isa = PBXGroup;
+			children = (
+				15AB66491D5AD8AA006561BF /* ColorViewController.h */,
+				15AB664A1D5AD8AA006561BF /* ColorViewController.m */,
+				15AB664D1D5AD8F3006561BF /* UIColor+XQColor.h */,
+				15AB664E1D5AD8F3006561BF /* UIColor+XQColor.m */,
+			);
+			name = "两种方式设置颜色";
+			sourceTree = "<group>";
+		};
+		15AB66501D5ADAD0006561BF /* VFL简单使用 */ = {
+			isa = PBXGroup;
+			children = (
+				15AB66511D5B0987006561BF /* VFLViewController.h */,
+				15AB66521D5B0987006561BF /* VFLViewController.m */,
+				15AB66531D5B0987006561BF /* VFLViewController.xib */,
+			);
+			name = "VFL简单使用";
+			sourceTree = "<group>";
+		};
+		78E8DF5D96996121DBEF462D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D882994EEA1935BF123779E /* Pods-MyTool.debug.xcconfig */,
+				201F87ADF2D2B99966245BFB /* Pods-MyTool.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CED0A5DA04DA6FFF674217B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1D2042761585434802BCA8F /* libPods-MyTool.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15AB65EC1D5AC2ED006561BF /* MyTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15AB661A1D5AC2ED006561BF /* Build configuration list for PBXNativeTarget "MyTool" */;
+			buildPhases = (
+				971CC82592F174188F2C8432 /* [CP] Check Pods Manifest.lock */,
+				15AB65E91D5AC2ED006561BF /* Sources */,
+				15AB65EA1D5AC2ED006561BF /* Frameworks */,
+				15AB65EB1D5AC2ED006561BF /* Resources */,
+				DCFE527BF943273883458CEA /* [CP] Embed Pods Frameworks */,
+				E2AC7039E7D32EC226A1095E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyTool;
+			productName = MyTool;
+			productReference = 15AB65ED1D5AC2ED006561BF /* MyTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15AB66051D5AC2ED006561BF /* MyToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15AB661D1D5AC2ED006561BF /* Build configuration list for PBXNativeTarget "MyToolTests" */;
+			buildPhases = (
+				15AB66021D5AC2ED006561BF /* Sources */,
+				15AB66031D5AC2ED006561BF /* Frameworks */,
+				15AB66041D5AC2ED006561BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15AB66081D5AC2ED006561BF /* PBXTargetDependency */,
+			);
+			name = MyToolTests;
+			productName = MyToolTests;
+			productReference = 15AB66061D5AC2ED006561BF /* MyToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15AB66101D5AC2ED006561BF /* MyToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15AB66201D5AC2ED006561BF /* Build configuration list for PBXNativeTarget "MyToolUITests" */;
+			buildPhases = (
+				15AB660D1D5AC2ED006561BF /* Sources */,
+				15AB660E1D5AC2ED006561BF /* Frameworks */,
+				15AB660F1D5AC2ED006561BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15AB66131D5AC2ED006561BF /* PBXTargetDependency */,
+			);
+			name = MyToolUITests;
+			productName = MyToolUITests;
+			productReference = 15AB66111D5AC2ED006561BF /* MyToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15AB65E51D5AC2ED006561BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = X;
+				TargetAttributes = {
+					15AB65EC1D5AC2ED006561BF = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					15AB66051D5AC2ED006561BF = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 15AB65EC1D5AC2ED006561BF;
+					};
+					15AB66101D5AC2ED006561BF = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 15AB65EC1D5AC2ED006561BF;
+					};
+				};
+			};
+			buildConfigurationList = 15AB65E81D5AC2ED006561BF /* Build configuration list for PBXProject "MyTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15AB65E41D5AC2ED006561BF;
+			productRefGroup = 15AB65EE1D5AC2ED006561BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15AB65EC1D5AC2ED006561BF /* MyTool */,
+				15AB66051D5AC2ED006561BF /* MyToolTests */,
+				15AB66101D5AC2ED006561BF /* MyToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15AB65EB1D5AC2ED006561BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15AB66001D5AC2ED006561BF /* LaunchScreen.storyboard in Resources */,
+				15879ABB1D5DBE9E005D4F99 /* TimePickerViewController.xib in Resources */,
+				15879AE51D5DCB09005D4F99 /* 签退icon@3x.png in Resources */,
+				15AB66551D5B0987006561BF /* VFLViewController.xib in Resources */,
+				15879AE21D5DCB08005D4F99 /* 签到icon@2x.png in Resources */,
+				15879AB51D5DB82C005D4F99 /* HUDViewController.xib in Resources */,
+				15879AE41D5DCB09005D4F99 /* 签退icon@2x.png in Resources */,
+				15AB65FD1D5AC2ED006561BF /* Assets.xcassets in Resources */,
+				15879AE31D5DCB09005D4F99 /* 签到icon@3x.png in Resources */,
+				15AB65FB1D5AC2ED006561BF /* Main.storyboard in Resources */,
+				15AB66441D5ACF1B006561BF /* GDMapViewController.xib in Resources */,
+				15879AB01D5DB6F1005D4F99 /* loading_4.png in Resources */,
+				15879AAD1D5DB6F1005D4F99 /* loading_1.png in Resources */,
+				15AB662E1D5AC6CA006561BF /* MapViewController.xib in Resources */,
+				15879AEA1D5DCF2A005D4F99 /* BtnMenuViewController.xib in Resources */,
+				15879AAE1D5DB6F1005D4F99 /* loading_2.png in Resources */,
+				15879AAF1D5DB6F1005D4F99 /* loading_3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15AB66041D5AC2ED006561BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15AB660F1D5AC2ED006561BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		971CC82592F174188F2C8432 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DCFE527BF943273883458CEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyTool/Pods-MyTool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2AC7039E7D32EC226A1095E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyTool/Pods-MyTool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15AB65E91D5AC2ED006561BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15879ACB1D5DC7F8005D4F99 /* NSDate+XQDate.m in Sources */,
+				15879AED1D5DCF40005D4F99 /* XQMenuView.m in Sources */,
+				15AB65F81D5AC2ED006561BF /* ViewController.m in Sources */,
+				15879AE91D5DCF2A005D4F99 /* BtnMenuViewController.m in Sources */,
+				15AB65F51D5AC2ED006561BF /* AppDelegate.m in Sources */,
+				15879ACC1D5DC7F8005D4F99 /* NSString+MoreMethod.m in Sources */,
+				15879AE11D5DCB08005D4F99 /* XQRecordView.m in Sources */,
+				15AB664B1D5AD8AA006561BF /* ColorViewController.m in Sources */,
+				15879ACD1D5DC7F8005D4F99 /* UILabel+XQAttribute.m in Sources */,
+				15879ACE1D5DC7F8005D4F99 /* UUID.m in Sources */,
+				15AB663C1D5ACCA6006561BF /* GDBackPlaceModel.m in Sources */,
+				15AB66481D5AD129006561BF /* XQMapView.m in Sources */,
+				15AB663D1D5ACCA6006561BF /* GDLocation.m in Sources */,
+				15AB66431D5ACF1B006561BF /* GDMapViewController.m in Sources */,
+				15AB664F1D5AD8F3006561BF /* UIColor+XQColor.m in Sources */,
+				15879ACF1D5DC7F8005D4F99 /* XQGetData.m in Sources */,
+				15AB65F21D5AC2ED006561BF /* main.m in Sources */,
+				15AB66541D5B0987006561BF /* VFLViewController.m in Sources */,
+				15AB663E1D5ACCA6006561BF /* XQGDWayWebView.m in Sources */,
+				15AB662D1D5AC6CA006561BF /* MapViewController.m in Sources */,
+				15879AAC1D5DB6F1005D4F99 /* XQHud.m in Sources */,
+				15879AE01D5DCB08005D4F99 /* UIView+Frame.m in Sources */,
+				15AB66291D5AC664006561BF /* MainViewController.m in Sources */,
+				15879AB41D5DB82C005D4F99 /* HUDViewController.m in Sources */,
+				15879ADF1D5DCB08005D4F99 /* ImageBtn.m in Sources */,
+				15879AD31D5DC854005D4F99 /* KeychainItemWrapper.m in Sources */,
+				15879ABA1D5DBE9E005D4F99 /* TimePickerViewController.m in Sources */,
+				15AB66261D5AC392006561BF /* MapLocation.m in Sources */,
+				15879ABE1D5DBEB8005D4F99 /* XQTimePicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15AB66021D5AC2ED006561BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15AB660B1D5AC2ED006561BF /* MyToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15AB660D1D5AC2ED006561BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15AB66161D5AC2ED006561BF /* MyToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15AB66081D5AC2ED006561BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15AB65EC1D5AC2ED006561BF /* MyTool */;
+			targetProxy = 15AB66071D5AC2ED006561BF /* PBXContainerItemProxy */;
+		};
+		15AB66131D5AC2ED006561BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15AB65EC1D5AC2ED006561BF /* MyTool */;
+			targetProxy = 15AB66121D5AC2ED006561BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15AB65F91D5AC2ED006561BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15AB65FA1D5AC2ED006561BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15AB65FE1D5AC2ED006561BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15AB65FF1D5AC2ED006561BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15AB66181D5AC2ED006561BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15AB66191D5AC2ED006561BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15AB661B1D5AC2ED006561BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D882994EEA1935BF123779E /* Pods-MyTool.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyTool/Header.pch";
+				INFOPLIST_FILE = MyTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.x.MyTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		15AB661C1D5AC2ED006561BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 201F87ADF2D2B99966245BFB /* Pods-MyTool.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyTool/Header.pch";
+				INFOPLIST_FILE = MyTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.x.MyTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		15AB661E1D5AC2ED006561BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.x.MyToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTool.app/MyTool";
+			};
+			name = Debug;
+		};
+		15AB661F1D5AC2ED006561BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.x.MyToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTool.app/MyTool";
+			};
+			name = Release;
+		};
+		15AB66211D5AC2ED006561BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.x.MyToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyTool;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		15AB66221D5AC2ED006561BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.x.MyToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyTool;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15AB65E81D5AC2ED006561BF /* Build configuration list for PBXProject "MyTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15AB66181D5AC2ED006561BF /* Debug */,
+				15AB66191D5AC2ED006561BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15AB661A1D5AC2ED006561BF /* Build configuration list for PBXNativeTarget "MyTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15AB661B1D5AC2ED006561BF /* Debug */,
+				15AB661C1D5AC2ED006561BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15AB661D1D5AC2ED006561BF /* Build configuration list for PBXNativeTarget "MyToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15AB661E1D5AC2ED006561BF /* Debug */,
+				15AB661F1D5AC2ED006561BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15AB66201D5AC2ED006561BF /* Build configuration list for PBXNativeTarget "MyToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15AB66211D5AC2ED006561BF /* Debug */,
+				15AB66221D5AC2ED006561BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15AB65E51D5AC2ED006561BF /* Project object */;
+}

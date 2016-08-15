@@ -1,0 +1,24 @@
+//
+//  Header.pch
+//  MyTool
+//
+//  Created by Xia_Q on 16/8/10.
+//  Copyright © 2016年 X. All rights reserved.
+//
+
+#ifndef Header_pch
+#define Header_pch
+
+
+//高德的Key
+#define kMAMAP_AppKey @""
+#define kMAP_WebLocationKey @""
+
+
+#define XW [UIScreen mainScreen].bounds.size.width
+#define XH [UIScreen mainScreen].bounds.size.height
+
+#define RGB(r,g,b) [UIColor colorWithRed:(r/255.0) green:(g/255.0) blue:(b/255.0) alpha:1]
+
+
+#endif /* Header_pch */

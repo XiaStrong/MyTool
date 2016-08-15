@@ -1,0 +1,34 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BE318D544DC77582D93DFF85542F0F2B29A0E792",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "a8e54e57-7b49-489b-9287-94ae3335d6cc++5414" : {
+      "DVTSourceControlWorkingCopyRepositoryBranchesLocationKey" : "mapp\/branches",
+      "DVTSourceControlWorkingCopyRepositoryTagsLocationKey" : "mapp\/tags",
+      "DVTSourceControlWorkingCopyRepositoryPrimaryBranchLocationKey" : "mapp\/trunk"
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BE318D544DC77582D93DFF85542F0F2B29A0E792" : 0,
+    "a8e54e57-7b49-489b-9287-94ae3335d6cc++5414" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5D7E583C-26BA-4F00-9A9C-6CE297346543",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BE318D544DC77582D93DFF85542F0F2B29A0E792" : "MyTool\/",
+    "a8e54e57-7b49-489b-9287-94ae3335d6cc++5414" : "MyTool\/MyTool\/AMapLocation\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MyTool",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MyTool.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/XiaStrong\/MyTool.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BE318D544DC77582D93DFF85542F0F2B29A0E792"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/130.51.23.250\/bss_gd",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "a8e54e57-7b49-489b-9287-94ae3335d6cc++5414"
+    }
+  ]
+}

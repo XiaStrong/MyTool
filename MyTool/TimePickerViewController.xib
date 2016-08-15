@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TimePickerViewController">
+            <connections>
+                <outlet property="timeLable" destination="QNv-hi-Moo" id="u7x-db-fLd"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="arc-h9-2iO">
+                    <rect key="frame" x="100" y="70" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="0Qi-1l-J8K"/>
+                        <constraint firstAttribute="width" constant="30" id="8So-Hb-k6D"/>
+                    </constraints>
+                    <state key="normal" title="展开"/>
+                    <connections>
+                        <action selector="show:" destination="-1" eventType="touchUpInside" id="aEe-25-aJ5"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nb3-97-rWp">
+                    <rect key="frame" x="470" y="70" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="qU1-kR-7Ax"/>
+                        <constraint firstAttribute="height" constant="30" id="qri-Pr-07z"/>
+                    </constraints>
+                    <state key="normal" title="收起"/>
+                    <connections>
+                        <action selector="stop:" destination="-1" eventType="touchUpInside" id="JfV-C9-hAO"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QNv-hi-Moo">
+                    <rect key="frame" x="10" y="130" width="580" height="21"/>
+                    <color key="backgroundColor" red="0.23205915407721489" green="1" blue="0.47011823012921172" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="6gd-gz-QI3"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="arc-h9-2iO" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="70" id="AP6-ED-esS"/>
+                <constraint firstItem="arc-h9-2iO" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="100" id="Ccd-EA-5zF"/>
+                <constraint firstItem="Nb3-97-rWp" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="70" id="Sae-PL-SJ8"/>
+                <constraint firstItem="QNv-hi-Moo" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="130" id="brF-nh-8uv"/>
+                <constraint firstAttribute="trailing" secondItem="QNv-hi-Moo" secondAttribute="trailing" constant="10" id="jJ3-0B-K3J"/>
+                <constraint firstAttribute="trailing" secondItem="Nb3-97-rWp" secondAttribute="trailing" constant="100" id="l3d-uB-vrG"/>
+                <constraint firstItem="QNv-hi-Moo" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="vl3-07-Zp2"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
