@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		151BCC901D79220000A4AB23 /* XQBlockButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 151BCC8F1D79220000A4AB23 /* XQBlockButton.m */; };
 		15879AAC1D5DB6F1005D4F99 /* XQHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 15879AA61D5DB6F1005D4F99 /* XQHud.m */; };
 		15879AAD1D5DB6F1005D4F99 /* loading_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 15879AA81D5DB6F1005D4F99 /* loading_1.png */; };
 		15879AAE1D5DB6F1005D4F99 /* loading_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 15879AA91D5DB6F1005D4F99 /* loading_2.png */; };
@@ -78,6 +79,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		151BCC8E1D79220000A4AB23 /* XQBlockButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQBlockButton.h; sourceTree = "<group>"; };
+		151BCC8F1D79220000A4AB23 /* XQBlockButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQBlockButton.m; sourceTree = "<group>"; };
 		15879AA51D5DB6F1005D4F99 /* XQHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQHud.h; sourceTree = "<group>"; };
 		15879AA61D5DB6F1005D4F99 /* XQHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQHud.m; sourceTree = "<group>"; };
 		15879AA81D5DB6F1005D4F99 /* loading_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading_1.png; sourceTree = "<group>"; };
@@ -243,6 +246,8 @@
 		15879AC01D5DC7AF005D4F99 /* 工具 */ = {
 			isa = PBXGroup;
 			children = (
+				151BCC8E1D79220000A4AB23 /* XQBlockButton.h */,
+				151BCC8F1D79220000A4AB23 /* XQBlockButton.m */,
 				15879AD41D5DCB08005D4F99 /* XQRecordView */,
 				15879AD01D5DC854005D4F99 /* keyChain */,
 				15879AC11D5DC7F8005D4F99 /* NSDate+XQDate.h */,
@@ -680,6 +685,7 @@
 				15879AB41D5DB82C005D4F99 /* HUDViewController.m in Sources */,
 				15879ADF1D5DCB08005D4F99 /* ImageBtn.m in Sources */,
 				15879AD31D5DC854005D4F99 /* KeychainItemWrapper.m in Sources */,
+				151BCC901D79220000A4AB23 /* XQBlockButton.m in Sources */,
 				15879ABA1D5DBE9E005D4F99 /* TimePickerViewController.m in Sources */,
 				15AB66261D5AC392006561BF /* MapLocation.m in Sources */,
 				15879ABE1D5DBEB8005D4F99 /* XQTimePicker.m in Sources */,
